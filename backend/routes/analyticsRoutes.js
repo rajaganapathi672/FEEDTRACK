@@ -12,3 +12,4 @@ router.get('/sentiment', getSentimentAnalytics);
 router.get('/category', getCategoryAnalytics);
 
 module.exports = router;
+
