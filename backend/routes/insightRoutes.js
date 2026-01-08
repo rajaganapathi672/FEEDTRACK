@@ -10,3 +10,4 @@ router.use(authorize('STAFF', 'ADMIN')); // All routes in this file are Staff/Ad
 router.post('/generate', generateInsights);
 
 module.exports = router;
+
