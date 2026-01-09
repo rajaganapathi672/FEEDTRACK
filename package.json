@@ -1,0 +1,11 @@
+{
+    "name": "feedtrack-monorepo",
+    "private": true,
+    "scripts": {
+        "postinstall": "npm install --prefix frontend && npm install --prefix backend",
+        "build": "npm run build --prefix frontend"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}
