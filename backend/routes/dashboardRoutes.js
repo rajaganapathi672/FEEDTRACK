@@ -6,3 +6,4 @@ const { protect, authorize } = require('../middleware/authMiddleware');
 router.get('/stats', protect, authorize('staff', 'admin'), getDashboardStats);
 
 module.exports = router;
+
