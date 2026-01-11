@@ -1,0 +1,5 @@
+{
+  "name": "FeedTrack: Student Feedback Analytics",
+  "description": "A comprehensive online feedback collection and response analysis system for students and staff, utilizing Gemini AI for sentiment analysis, categorization, and institutional insights.",
+  "requestFramePermissions": []
+}
